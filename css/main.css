@@ -134,6 +134,14 @@ textarea {
     font-weight: 500;
   }
    
+  img {
+    width: 100%;
+  } 
+
+  figure {
+    margin: 0;
+  }
+
   p {
     font-size: .875em;
     line-height: 1.285em;
@@ -239,10 +247,13 @@ footer .copyright {
 /* Hero Area*/
 
 .hero-area {
-
-display: flex;
-justify-content: center;
-flex-flow: row wrap;
+  background: url(../img/jake.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -291,6 +302,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url(../img/raw.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -700,7 +714,7 @@ FAQ Page
   /* Hero */
 
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
@@ -715,7 +729,7 @@ FAQ Page
     width: 30%;
   }
 
-  .form-descriptopmo p {
+  .form-description p {
     font-size: 1.125em;
   }
 
@@ -730,13 +744,14 @@ FAQ Page
   }
 
   /*Reviews*/
-  .reviews h2 {
-    padding-bottom: 50px;
-  }
 
   .reviews article div {
     width: 42%;
     }
+
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
 
   footer h4 {
     font-size: 1.875em;
