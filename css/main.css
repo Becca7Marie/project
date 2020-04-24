@@ -216,7 +216,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 80%;
   font-size: 1.125em;
   text-transform: uppercase;
   font-weight: 700;
@@ -555,7 +555,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 40%;
   }
 
   header nav ul {
@@ -625,6 +625,10 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  .reviews figure {
+    padding: 0 20px;
   }
 
   /*Footer*/
